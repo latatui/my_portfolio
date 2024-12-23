@@ -6,9 +6,9 @@ const About = ({ isEnglish }) => {
       <div className="text-center">
         <div className='flex'>
             <img
-            src="/path-to-your-profile-picture.jpg" // 여기에 자신의 프로필 사진 경로 입력
+            src="/sanggi.png" // 여기에 자신의 프로필 사진 경로 입력
             alt="Profile"
-            className="rounded-full w-32 h-32 mb-4 mx-auto"
+            className="w-32 h-38 mb-4 mx-auto"
             />
             <div className='text-center'>
                 <div>{isEnglish ? 'Name : Lee sanggi' : '이름 : 이상기'}</div>
